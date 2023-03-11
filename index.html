@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <div class="left-content">
+      <h1 class="left-title">
+        Learn to code by watching others
+      </h1>
+      <p class="left-description">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </div>
+    <div class="right-content">
+      <h2 class="right-subtitle">
+        <span>Try it free 7 days</span> then $20/mo. thereafter
+      </h2>
+      <form data-form class="right-form" action="">
+
+        <input data-form="name" class="form-item" type="text" name="name" id="name" placeholder="First Name">
+        <span class="input-error"></span>
+
+        <input data-form="subname" class="form-item" type="text" name="subname" id="subname" placeholder="Last Name">
+        <span class="input-error"></span>
+
+        <input data-form="email" class="form-item" type="text" name="email" id="email" placeholder="Email">
+        <span class="input-error"></span>
+
+        <input data-form="password" class="form-item" type="password" name="password" id="password"
+          placeholder="Password">
+        <span class="input-error"></span>
+
+        <button data-form="btn" class="btn" type="submit">claim your free trial</button>
+
+        <p class="right-terms">
+          By clicking the button, you are agreeing to our <a href="">Terms and Services</a>
+        </p>
+      </form>
+    </div>
+
+  </div>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
